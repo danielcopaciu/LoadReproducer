@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;LoadReproducer&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://D:/ResfulWebService/src/sourcegraph.com" />
+      <root url="file://D:/ResfulWebService/src/webservice" />
+      <root url="file://D:/ResfulWebService/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://D:/ResfulWebService/src/github.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://D:/ResfulWebService/src/sourcegraph.com" />
+      <root url="file://D:/ResfulWebService/src/webservice" />
+      <root url="file://D:/ResfulWebService/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://D:/ResfulWebService/src/github.com" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
