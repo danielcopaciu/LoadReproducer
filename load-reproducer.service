@@ -1,0 +1,12 @@
+[Unit]
+Description=Load Reproducer Service
+After=docker.service
+
+[Service]
+TimeoutStartSec=0
+KillMode=none
+ExecStartPre=-/usr/bin/docker kill load-reproducer
+ExecStartPre=-/usr/bin/docker rm load-reproducer
+ExecStartPre=-/usr/bin/docker pull load-reproducer
+ExecStart=/usr/bin/docker run -ti --env ENDPOINT_URLS="http://google.com" load-reproducer
+ExecStop=/usr/bin/docker stop load-reproducer
